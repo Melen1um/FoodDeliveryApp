@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		727211F62C44B1CC005B1C6D /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727211F52C44B1CC005B1C6D /* Coordinator.swift */; };
+		72C715F22C4CDACF0074EDCF /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C715F12C4CDACF0074EDCF /* AppCoordinator.swift */; };
+		72C715F42C4D4EC90074EDCF /* OnBoardingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C715F32C4D4EC90074EDCF /* OnBoardingCoordinator.swift */; };
+		72C715F62C4D53E70074EDCF /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C715F52C4D53E70074EDCF /* HomeCoordinator.swift */; };
+		72C715F82C4D54020074EDCF /* OrderCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C715F72C4D54020074EDCF /* OrderCoordinator.swift */; };
+		72C715FC2C4D54460074EDCF /* ProfileCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C715FB2C4D54460074EDCF /* ProfileCoordinator.swift */; };
+		72C715FE2C4D549D0074EDCF /* ListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C715FD2C4D549D0074EDCF /* ListCoordinator.swift */; };
+		72C716002C4D54CF0074EDCF /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C715FF2C4D54CF0074EDCF /* TabBarController.swift */; };
 		72E52EDB2C35FDAD001394DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E52EDA2C35FDAD001394DD /* AppDelegate.swift */; };
 		72E52EDD2C35FDAD001394DD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E52EDC2C35FDAD001394DD /* SceneDelegate.swift */; };
 		72E52EDF2C35FDAD001394DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E52EDE2C35FDAD001394DD /* ViewController.swift */; };
@@ -31,6 +39,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		727211F52C44B1CC005B1C6D /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		72C715F12C4CDACF0074EDCF /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		72C715F32C4D4EC90074EDCF /* OnBoardingCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingCoordinator.swift; sourceTree = "<group>"; };
+		72C715F52C4D53E70074EDCF /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
+		72C715F72C4D54020074EDCF /* OrderCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCoordinator.swift; sourceTree = "<group>"; };
+		72C715FB2C4D54460074EDCF /* ProfileCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCoordinator.swift; sourceTree = "<group>"; };
+		72C715FD2C4D549D0074EDCF /* ListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCoordinator.swift; sourceTree = "<group>"; };
+		72C715FF2C4D54CF0074EDCF /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		72E52ED72C35FDAD001394DD /* FoodDeliveryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodDeliveryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72E52EDA2C35FDAD001394DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		72E52EDC2C35FDAD001394DD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -67,6 +83,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		727211F22C44B17F005B1C6D /* NavigationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				727211F42C44B1AD005B1C6D /* Coordinators */,
+				727211F32C44B1A3005B1C6D /* Controllers */,
+			);
+			path = NavigationLayer;
+			sourceTree = "<group>";
+		};
+		727211F32C44B1A3005B1C6D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				72C715FF2C4D54CF0074EDCF /* TabBarController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		727211F42C44B1AD005B1C6D /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				727211F52C44B1CC005B1C6D /* Coordinator.swift */,
+				72C715F12C4CDACF0074EDCF /* AppCoordinator.swift */,
+				72C715F32C4D4EC90074EDCF /* OnBoardingCoordinator.swift */,
+				72C715F52C4D53E70074EDCF /* HomeCoordinator.swift */,
+				72C715F72C4D54020074EDCF /* OrderCoordinator.swift */,
+				72C715FB2C4D54460074EDCF /* ProfileCoordinator.swift */,
+				72C715FD2C4D549D0074EDCF /* ListCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
 		72E52ECE2C35FDAC001394DD = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +133,7 @@
 		72E52ED92C35FDAD001394DD /* FoodDeliveryApp */ = {
 			isa = PBXGroup;
 			children = (
+				727211F22C44B17F005B1C6D /* NavigationLayer */,
 				72E52EEE2C3C3773001394DD /* Resources */,
 				72E52EDA2C35FDAD001394DD /* AppDelegate.swift */,
 				72E52EDC2C35FDAD001394DD /* SceneDelegate.swift */,
@@ -231,8 +279,16 @@
 				72E52F0F2C3C3D49001394DD /* UIColor+Extensions.swift in Sources */,
 				72E52EDB2C35FDAD001394DD /* AppDelegate.swift in Sources */,
 				72E52F112C3C3DC8001394DD /* AppColors.swift in Sources */,
+				72C715F22C4CDACF0074EDCF /* AppCoordinator.swift in Sources */,
 				72E52F0D2C3C39D5001394DD /* UIFont+Extension.swift in Sources */,
+				72C715F82C4D54020074EDCF /* OrderCoordinator.swift in Sources */,
+				72C715FC2C4D54460074EDCF /* ProfileCoordinator.swift in Sources */,
 				72E52EDD2C35FDAD001394DD /* SceneDelegate.swift in Sources */,
+				72C715FE2C4D549D0074EDCF /* ListCoordinator.swift in Sources */,
+				72C715F62C4D53E70074EDCF /* HomeCoordinator.swift in Sources */,
+				72C716002C4D54CF0074EDCF /* TabBarController.swift in Sources */,
+				727211F62C44B1CC005B1C6D /* Coordinator.swift in Sources */,
+				72C715F42C4D4EC90074EDCF /* OnBoardingCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
