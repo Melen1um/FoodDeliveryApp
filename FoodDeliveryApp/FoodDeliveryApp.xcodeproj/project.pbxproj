@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		72456C4E2C6ECF4400DAFB1D /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72456C4D2C6ECF4400DAFB1D /* OnBoardingViewController.swift */; };
+		72456C522C6ED28A00DAFB1D /* OnBoardingViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72456C512C6ED28A00DAFB1D /* OnBoardingViewPresenter.swift */; };
 		727211F62C44B1CC005B1C6D /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727211F52C44B1CC005B1C6D /* Coordinator.swift */; };
 		72C715F22C4CDACF0074EDCF /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C715F12C4CDACF0074EDCF /* AppCoordinator.swift */; };
 		72C715F42C4D4EC90074EDCF /* OnBoardingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C715F32C4D4EC90074EDCF /* OnBoardingCoordinator.swift */; };
@@ -39,6 +41,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		72456C4D2C6ECF4400DAFB1D /* OnBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
+		72456C512C6ED28A00DAFB1D /* OnBoardingViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewPresenter.swift; sourceTree = "<group>"; };
 		727211F52C44B1CC005B1C6D /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		72C715F12C4CDACF0074EDCF /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		72C715F32C4D4EC90074EDCF /* OnBoardingCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingCoordinator.swift; sourceTree = "<group>"; };
@@ -83,6 +87,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		72456C4B2C6ECEA300DAFB1D /* UILayer */ = {
+			isa = PBXGroup;
+			children = (
+				72456C4C2C6ECF1100DAFB1D /* OnBoarding */,
+			);
+			path = UILayer;
+			sourceTree = "<group>";
+		};
+		72456C4C2C6ECF1100DAFB1D /* OnBoarding */ = {
+			isa = PBXGroup;
+			children = (
+				72456C4D2C6ECF4400DAFB1D /* OnBoardingViewController.swift */,
+				72456C512C6ED28A00DAFB1D /* OnBoardingViewPresenter.swift */,
+			);
+			path = OnBoarding;
+			sourceTree = "<group>";
+		};
 		727211F22C44B17F005B1C6D /* NavigationLayer */ = {
 			isa = PBXGroup;
 			children = (
@@ -133,6 +154,7 @@
 		72E52ED92C35FDAD001394DD /* FoodDeliveryApp */ = {
 			isa = PBXGroup;
 			children = (
+				72456C4B2C6ECEA300DAFB1D /* UILayer */,
 				727211F22C44B17F005B1C6D /* NavigationLayer */,
 				72E52EEE2C3C3773001394DD /* Resources */,
 				72E52EDA2C35FDAD001394DD /* AppDelegate.swift */,
@@ -284,10 +306,12 @@
 				72C715F82C4D54020074EDCF /* OrderCoordinator.swift in Sources */,
 				72C715FC2C4D54460074EDCF /* ProfileCoordinator.swift in Sources */,
 				72E52EDD2C35FDAD001394DD /* SceneDelegate.swift in Sources */,
+				72456C4E2C6ECF4400DAFB1D /* OnBoardingViewController.swift in Sources */,
 				72C715FE2C4D549D0074EDCF /* ListCoordinator.swift in Sources */,
 				72C715F62C4D53E70074EDCF /* HomeCoordinator.swift in Sources */,
 				72C716002C4D54CF0074EDCF /* TabBarController.swift in Sources */,
 				727211F62C44B1CC005B1C6D /* Coordinator.swift in Sources */,
+				72456C522C6ED28A00DAFB1D /* OnBoardingViewPresenter.swift in Sources */,
 				72C715F42C4D4EC90074EDCF /* OnBoardingCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
