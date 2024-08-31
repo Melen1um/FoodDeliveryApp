@@ -10,6 +10,7 @@
 		72456C4E2C6ECF4400DAFB1D /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72456C4D2C6ECF4400DAFB1D /* OnBoardingViewController.swift */; };
 		72456C522C6ED28A00DAFB1D /* OnBoardingViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72456C512C6ED28A00DAFB1D /* OnBoardingViewPresenter.swift */; };
 		727211F62C44B1CC005B1C6D /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727211F52C44B1CC005B1C6D /* Coordinator.swift */; };
+		728F4BD52C75AD8000EF49B6 /* OnboardingPartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728F4BD42C75AD8000EF49B6 /* OnboardingPartViewController.swift */; };
 		72C715F22C4CDACF0074EDCF /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C715F12C4CDACF0074EDCF /* AppCoordinator.swift */; };
 		72C715F42C4D4EC90074EDCF /* OnBoardingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C715F32C4D4EC90074EDCF /* OnBoardingCoordinator.swift */; };
 		72C715F62C4D53E70074EDCF /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C715F52C4D53E70074EDCF /* HomeCoordinator.swift */; };
@@ -44,6 +45,7 @@
 		72456C4D2C6ECF4400DAFB1D /* OnBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
 		72456C512C6ED28A00DAFB1D /* OnBoardingViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewPresenter.swift; sourceTree = "<group>"; };
 		727211F52C44B1CC005B1C6D /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		728F4BD42C75AD8000EF49B6 /* OnboardingPartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OnboardingPartViewController.swift; path = FoodDeliveryApp/UILayer/Onboarding/OnboardingPartViewController.swift; sourceTree = SOURCE_ROOT; };
 		72C715F12C4CDACF0074EDCF /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		72C715F32C4D4EC90074EDCF /* OnBoardingCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingCoordinator.swift; sourceTree = "<group>"; };
 		72C715F52C4D53E70074EDCF /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 			children = (
 				72456C4D2C6ECF4400DAFB1D /* OnBoardingViewController.swift */,
 				72456C512C6ED28A00DAFB1D /* OnBoardingViewPresenter.swift */,
+				728F4BD42C75AD8000EF49B6 /* OnboardingPartViewController.swift */,
 			);
 			path = OnBoarding;
 			sourceTree = "<group>";
@@ -310,6 +313,7 @@
 				72C715FE2C4D549D0074EDCF /* ListCoordinator.swift in Sources */,
 				72C715F62C4D53E70074EDCF /* HomeCoordinator.swift in Sources */,
 				72C716002C4D54CF0074EDCF /* TabBarController.swift in Sources */,
+				728F4BD52C75AD8000EF49B6 /* OnboardingPartViewController.swift in Sources */,
 				727211F62C44B1CC005B1C6D /* Coordinator.swift in Sources */,
 				72456C522C6ED28A00DAFB1D /* OnBoardingViewPresenter.swift in Sources */,
 				72C715F42C4D4EC90074EDCF /* OnBoardingCoordinator.swift in Sources */,
