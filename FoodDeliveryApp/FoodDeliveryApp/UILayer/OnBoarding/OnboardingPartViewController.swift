@@ -8,10 +8,10 @@
 import UIKit
 
 
-// MARK - OnboardingPartViewController
+// MARK: - OnboardingPartViewController
 class OnboardingPartViewController: UIViewController {
     
-    // MARK - Properties
+    // MARK: - Properties
     var imageToShow: UIImage?{
         didSet{
             imageView.image = imageToShow
@@ -30,13 +30,13 @@ class OnboardingPartViewController: UIViewController {
     var buttonText: String?
     
     
-    // MARK - Views
+    // MARK: - Views
     private let imageView = UIImageView()
     private let titleLabel = UILabel()
     private let descriptionLabel = UILabel()
 
     
-    // MARK - initializers
+    // MARK: - initializers
    /* init(image: UIImage, titleText: String, descriptionText: String) {
         self.image = image
         self.titleText = titleText
@@ -59,7 +59,7 @@ class OnboardingPartViewController: UIViewController {
 
 
 
-// MARK - Layout
+// MARK: - Layout
 private extension OnboardingPartViewController{
     func setupLayout(){
         setupView()
