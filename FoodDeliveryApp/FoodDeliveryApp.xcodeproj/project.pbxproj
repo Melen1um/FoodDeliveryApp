@@ -7,14 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		72195A7E2C867FD800A20692 /* SceneFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72195A7D2C867FD800A20692 /* SceneFactory.swift */; };
+		72456C4E2C6ECF4400DAFB1D /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72456C4D2C6ECF4400DAFB1D /* OnBoardingViewController.swift */; };
+		72456C522C6ED28A00DAFB1D /* OnBoardingViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72456C512C6ED28A00DAFB1D /* OnBoardingViewPresenter.swift */; };
+		72530A2B2C82A32A00197408 /* UserStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72530A2A2C82A32A00197408 /* UserStorage.swift */; };
+		727211F62C44B1CC005B1C6D /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727211F52C44B1CC005B1C6D /* Coordinator.swift */; };
+		728F4BD52C75AD8000EF49B6 /* OnboardingPartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728F4BD42C75AD8000EF49B6 /* OnboardingPartViewController.swift */; };
+		72C715F22C4CDACF0074EDCF /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C715F12C4CDACF0074EDCF /* AppCoordinator.swift */; };
+		72C715F42C4D4EC90074EDCF /* OnBoardingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C715F32C4D4EC90074EDCF /* OnBoardingCoordinator.swift */; };
+		72C715F62C4D53E70074EDCF /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C715F52C4D53E70074EDCF /* HomeCoordinator.swift */; };
+		72C715F82C4D54020074EDCF /* OrderCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C715F72C4D54020074EDCF /* OrderCoordinator.swift */; };
+		72C715FC2C4D54460074EDCF /* ProfileCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C715FB2C4D54460074EDCF /* ProfileCoordinator.swift */; };
+		72C715FE2C4D549D0074EDCF /* ListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C715FD2C4D549D0074EDCF /* ListCoordinator.swift */; };
+		72C716002C4D54CF0074EDCF /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C715FF2C4D54CF0074EDCF /* TabBarController.swift */; };
 		72E52EDB2C35FDAD001394DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E52EDA2C35FDAD001394DD /* AppDelegate.swift */; };
 		72E52EDD2C35FDAD001394DD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E52EDC2C35FDAD001394DD /* SceneDelegate.swift */; };
 		72E52EDF2C35FDAD001394DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E52EDE2C35FDAD001394DD /* ViewController.swift */; };
 		72E52EE42C35FDAE001394DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72E52EE32C35FDAE001394DD /* Assets.xcassets */; };
 		72E52EE72C35FDAE001394DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72E52EE52C35FDAE001394DD /* LaunchScreen.storyboard */; };
+		72E52EFE2C3C37A2001394DD /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72E52EF12C3C37A2001394DD /* Roboto-Medium.ttf */; };
+		72E52EFF2C3C37A2001394DD /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72E52EF22C3C37A2001394DD /* Roboto-Light.ttf */; };
+		72E52F002C3C37A2001394DD /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72E52EF32C3C37A2001394DD /* Roboto-Regular.ttf */; };
+		72E52F012C3C37A2001394DD /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72E52EF42C3C37A2001394DD /* Roboto-MediumItalic.ttf */; };
+		72E52F022C3C37A2001394DD /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72E52EF52C3C37A2001394DD /* Roboto-ThinItalic.ttf */; };
+		72E52F032C3C37A2001394DD /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72E52EF62C3C37A2001394DD /* Roboto-BoldItalic.ttf */; };
+		72E52F042C3C37A2001394DD /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72E52EF72C3C37A2001394DD /* Roboto-LightItalic.ttf */; };
+		72E52F052C3C37A2001394DD /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72E52EF82C3C37A2001394DD /* Roboto-Italic.ttf */; };
+		72E52F062C3C37A2001394DD /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 72E52EF92C3C37A2001394DD /* LICENSE.txt */; };
+		72E52F072C3C37A2001394DD /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72E52EFA2C3C37A2001394DD /* Roboto-BlackItalic.ttf */; };
+		72E52F082C3C37A2001394DD /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72E52EFB2C3C37A2001394DD /* Roboto-Bold.ttf */; };
+		72E52F092C3C37A2001394DD /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72E52EFC2C3C37A2001394DD /* Roboto-Thin.ttf */; };
+		72E52F0A2C3C37A2001394DD /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72E52EFD2C3C37A2001394DD /* Roboto-Black.ttf */; };
+		72E52F0D2C3C39D5001394DD /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E52F0C2C3C39D5001394DD /* UIFont+Extension.swift */; };
+		72E52F0F2C3C3D49001394DD /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E52F0E2C3C3D49001394DD /* UIColor+Extensions.swift */; };
+		72E52F112C3C3DC8001394DD /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E52F102C3C3DC8001394DD /* AppColors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		72195A7D2C867FD800A20692 /* SceneFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneFactory.swift; sourceTree = "<group>"; };
+		72456C4D2C6ECF4400DAFB1D /* OnBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
+		72456C512C6ED28A00DAFB1D /* OnBoardingViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewPresenter.swift; sourceTree = "<group>"; };
+		72530A2A2C82A32A00197408 /* UserStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStorage.swift; sourceTree = "<group>"; };
+		727211F52C44B1CC005B1C6D /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		728F4BD42C75AD8000EF49B6 /* OnboardingPartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OnboardingPartViewController.swift; path = FoodDeliveryApp/UILayer/Onboarding/OnboardingPartViewController.swift; sourceTree = SOURCE_ROOT; };
+		72C715F12C4CDACF0074EDCF /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		72C715F32C4D4EC90074EDCF /* OnBoardingCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingCoordinator.swift; sourceTree = "<group>"; };
+		72C715F52C4D53E70074EDCF /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
+		72C715F72C4D54020074EDCF /* OrderCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCoordinator.swift; sourceTree = "<group>"; };
+		72C715FB2C4D54460074EDCF /* ProfileCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCoordinator.swift; sourceTree = "<group>"; };
+		72C715FD2C4D549D0074EDCF /* ListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCoordinator.swift; sourceTree = "<group>"; };
+		72C715FF2C4D54CF0074EDCF /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		72E52ED72C35FDAD001394DD /* FoodDeliveryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodDeliveryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72E52EDA2C35FDAD001394DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		72E52EDC2C35FDAD001394DD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -22,6 +64,22 @@
 		72E52EE32C35FDAE001394DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72E52EE62C35FDAE001394DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72E52EE82C35FDAE001394DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72E52EF12C3C37A2001394DD /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		72E52EF22C3C37A2001394DD /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		72E52EF32C3C37A2001394DD /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		72E52EF42C3C37A2001394DD /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		72E52EF52C3C37A2001394DD /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		72E52EF62C3C37A2001394DD /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		72E52EF72C3C37A2001394DD /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		72E52EF82C3C37A2001394DD /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		72E52EF92C3C37A2001394DD /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		72E52EFA2C3C37A2001394DD /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		72E52EFB2C3C37A2001394DD /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		72E52EFC2C3C37A2001394DD /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		72E52EFD2C3C37A2001394DD /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		72E52F0C2C3C39D5001394DD /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
+		72E52F0E2C3C3D49001394DD /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		72E52F102C3C3DC8001394DD /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +93,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		72195A7C2C867FCA00A20692 /* SceneFactory */ = {
+			isa = PBXGroup;
+			children = (
+				72195A7D2C867FD800A20692 /* SceneFactory.swift */,
+			);
+			path = SceneFactory;
+			sourceTree = "<group>";
+		};
+		72456C4B2C6ECEA300DAFB1D /* UILayer */ = {
+			isa = PBXGroup;
+			children = (
+				72195A7C2C867FCA00A20692 /* SceneFactory */,
+				72456C4C2C6ECF1100DAFB1D /* OnBoarding */,
+			);
+			path = UILayer;
+			sourceTree = "<group>";
+		};
+		72456C4C2C6ECF1100DAFB1D /* OnBoarding */ = {
+			isa = PBXGroup;
+			children = (
+				72456C4D2C6ECF4400DAFB1D /* OnBoardingViewController.swift */,
+				72456C512C6ED28A00DAFB1D /* OnBoardingViewPresenter.swift */,
+				728F4BD42C75AD8000EF49B6 /* OnboardingPartViewController.swift */,
+			);
+			path = OnBoarding;
+			sourceTree = "<group>";
+		};
+		72530A292C82A30000197408 /* ServicesLayer */ = {
+			isa = PBXGroup;
+			children = (
+				72530A2A2C82A32A00197408 /* UserStorage.swift */,
+			);
+			path = ServicesLayer;
+			sourceTree = "<group>";
+		};
+		727211F22C44B17F005B1C6D /* NavigationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				727211F42C44B1AD005B1C6D /* Coordinators */,
+				727211F32C44B1A3005B1C6D /* Controllers */,
+			);
+			path = NavigationLayer;
+			sourceTree = "<group>";
+		};
+		727211F32C44B1A3005B1C6D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				72C715FF2C4D54CF0074EDCF /* TabBarController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		727211F42C44B1AD005B1C6D /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				727211F52C44B1CC005B1C6D /* Coordinator.swift */,
+				72C715F12C4CDACF0074EDCF /* AppCoordinator.swift */,
+				72C715F32C4D4EC90074EDCF /* OnBoardingCoordinator.swift */,
+				72C715F52C4D53E70074EDCF /* HomeCoordinator.swift */,
+				72C715F72C4D54020074EDCF /* OrderCoordinator.swift */,
+				72C715FB2C4D54460074EDCF /* ProfileCoordinator.swift */,
+				72C715FD2C4D549D0074EDCF /* ListCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
 		72E52ECE2C35FDAC001394DD = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +178,10 @@
 		72E52ED92C35FDAD001394DD /* FoodDeliveryApp */ = {
 			isa = PBXGroup;
 			children = (
+				72530A292C82A30000197408 /* ServicesLayer */,
+				72456C4B2C6ECEA300DAFB1D /* UILayer */,
+				727211F22C44B17F005B1C6D /* NavigationLayer */,
+				72E52EEE2C3C3773001394DD /* Resources */,
 				72E52EDA2C35FDAD001394DD /* AppDelegate.swift */,
 				72E52EDC2C35FDAD001394DD /* SceneDelegate.swift */,
 				72E52EDE2C35FDAD001394DD /* ViewController.swift */,
@@ -62,6 +190,53 @@
 				72E52EE82C35FDAE001394DD /* Info.plist */,
 			);
 			path = FoodDeliveryApp;
+			sourceTree = "<group>";
+		};
+		72E52EEE2C3C3773001394DD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				72E52F0B2C3C39A5001394DD /* Extensions */,
+				72E52EEF2C3C377E001394DD /* Fonts */,
+				72E52F102C3C3DC8001394DD /* AppColors.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		72E52EEF2C3C377E001394DD /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				72E52EF02C3C37A2001394DD /* Roboto */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		72E52EF02C3C37A2001394DD /* Roboto */ = {
+			isa = PBXGroup;
+			children = (
+				72E52EF12C3C37A2001394DD /* Roboto-Medium.ttf */,
+				72E52EF22C3C37A2001394DD /* Roboto-Light.ttf */,
+				72E52EF32C3C37A2001394DD /* Roboto-Regular.ttf */,
+				72E52EF42C3C37A2001394DD /* Roboto-MediumItalic.ttf */,
+				72E52EF52C3C37A2001394DD /* Roboto-ThinItalic.ttf */,
+				72E52EF62C3C37A2001394DD /* Roboto-BoldItalic.ttf */,
+				72E52EF72C3C37A2001394DD /* Roboto-LightItalic.ttf */,
+				72E52EF82C3C37A2001394DD /* Roboto-Italic.ttf */,
+				72E52EF92C3C37A2001394DD /* LICENSE.txt */,
+				72E52EFA2C3C37A2001394DD /* Roboto-BlackItalic.ttf */,
+				72E52EFB2C3C37A2001394DD /* Roboto-Bold.ttf */,
+				72E52EFC2C3C37A2001394DD /* Roboto-Thin.ttf */,
+				72E52EFD2C3C37A2001394DD /* Roboto-Black.ttf */,
+			);
+			path = Roboto;
+			sourceTree = "<group>";
+		};
+		72E52F0B2C3C39A5001394DD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				72E52F0C2C3C39D5001394DD /* UIFont+Extension.swift */,
+				72E52F0E2C3C3D49001394DD /* UIColor+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,8 +297,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72E52F092C3C37A2001394DD /* Roboto-Thin.ttf in Resources */,
+				72E52F062C3C37A2001394DD /* LICENSE.txt in Resources */,
+				72E52F0A2C3C37A2001394DD /* Roboto-Black.ttf in Resources */,
+				72E52F082C3C37A2001394DD /* Roboto-Bold.ttf in Resources */,
 				72E52EE72C35FDAE001394DD /* LaunchScreen.storyboard in Resources */,
 				72E52EE42C35FDAE001394DD /* Assets.xcassets in Resources */,
+				72E52F032C3C37A2001394DD /* Roboto-BoldItalic.ttf in Resources */,
+				72E52F002C3C37A2001394DD /* Roboto-Regular.ttf in Resources */,
+				72E52F022C3C37A2001394DD /* Roboto-ThinItalic.ttf in Resources */,
+				72E52F042C3C37A2001394DD /* Roboto-LightItalic.ttf in Resources */,
+				72E52F072C3C37A2001394DD /* Roboto-BlackItalic.ttf in Resources */,
+				72E52EFF2C3C37A2001394DD /* Roboto-Light.ttf in Resources */,
+				72E52F052C3C37A2001394DD /* Roboto-Italic.ttf in Resources */,
+				72E52F012C3C37A2001394DD /* Roboto-MediumItalic.ttf in Resources */,
+				72E52EFE2C3C37A2001394DD /* Roboto-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +323,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				72E52EDF2C35FDAD001394DD /* ViewController.swift in Sources */,
+				72E52F0F2C3C3D49001394DD /* UIColor+Extensions.swift in Sources */,
 				72E52EDB2C35FDAD001394DD /* AppDelegate.swift in Sources */,
+				72E52F112C3C3DC8001394DD /* AppColors.swift in Sources */,
+				72C715F22C4CDACF0074EDCF /* AppCoordinator.swift in Sources */,
+				72E52F0D2C3C39D5001394DD /* UIFont+Extension.swift in Sources */,
+				72C715F82C4D54020074EDCF /* OrderCoordinator.swift in Sources */,
+				72C715FC2C4D54460074EDCF /* ProfileCoordinator.swift in Sources */,
 				72E52EDD2C35FDAD001394DD /* SceneDelegate.swift in Sources */,
+				72456C4E2C6ECF4400DAFB1D /* OnBoardingViewController.swift in Sources */,
+				72C715FE2C4D549D0074EDCF /* ListCoordinator.swift in Sources */,
+				72C715F62C4D53E70074EDCF /* HomeCoordinator.swift in Sources */,
+				72C716002C4D54CF0074EDCF /* TabBarController.swift in Sources */,
+				728F4BD52C75AD8000EF49B6 /* OnboardingPartViewController.swift in Sources */,
+				72530A2B2C82A32A00197408 /* UserStorage.swift in Sources */,
+				72195A7E2C867FD800A20692 /* SceneFactory.swift in Sources */,
+				727211F62C44B1CC005B1C6D /* Coordinator.swift in Sources */,
+				72456C522C6ED28A00DAFB1D /* OnBoardingViewPresenter.swift in Sources */,
+				72C715F42C4D4EC90074EDCF /* OnBoardingCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

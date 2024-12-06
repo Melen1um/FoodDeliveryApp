@@ -1,0 +1,60 @@
+//
+//  AppCoordinator.swift
+//  FoodDeliveryApp
+//
+//  Created by Асад Tожидинов on 21/07/24.
+//
+
+import UIKit
+
+class AppCoordinator: Coordinator {
+    
+    private let userStorage = UserStorage.shared
+    private let factory = SceneFactory.self
+    override func start(){
+        //UserDefaults.standard.removeObject(forKey: "passedOnboarding")
+        //userStorage.passedOnboarding = false
+        if userStorage.passedOnboarding{
+            showMainFlow()
+        }
+        else{
+            showOnBoardingFlow()
+        }
+        
+      
+    }
+    override func finish(){
+        print("AppCoordinator finished")
+    }
+}
+//MARK: Navigation methods
+private extension AppCoordinator {
+    func showOnBoardingFlow(){
+        guard let navigationController = navigationController else {return}
+        factory.makeOnboardingFlow(coordinator: self, finishDelegate: self, navigationController: navigationController)
+    }
+    func showMainFlow(){
+        guard let navigationController = navigationController else {return}
+        let tabBarController = factory.makeMainFlow(coordinator: self, finishDelegate: self)
+        navigationController.pushViewController(tabBarController, animated: true)
+        
+        
+    }
+}
+
+extension AppCoordinator: CoordinatorFinishDelegate{
+    func coordinatorDidFinish(childCoordinator: CoordinatorProtocol) {
+        removeChildCoordinator(childCoordinator)
+        
+        switch childCoordinator.type{
+        case .onboarding:
+            navigationController?.viewControllers.removeAll()
+            showMainFlow()
+        case .app:
+            return
+        default:
+            navigationController?.popToRootViewController(animated: false)
+        }
+    }
+    
+}
